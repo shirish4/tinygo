@@ -1,6 +1,6 @@
 module github.com/tinygo-org/tinygo
 
-go 1.16
+go 1.18
 
 require (
 	github.com/aykevl/go-wasm v0.0.2-0.20211119014117-0761b1ddcd1a
@@ -16,4 +16,17 @@ require (
 	golang.org/x/tools v0.1.6-0.20210813165731-45389f592fe9
 	gopkg.in/yaml.v2 v2.4.0
 	tinygo.org/x/go-llvm v0.0.0-20220420140351-512c94c1e71f
+)
+
+require (
+	github.com/chromedp/sysutil v1.0.0 // indirect
+	github.com/creack/goselect v0.1.2 // indirect
+	github.com/gobwas/httphead v0.1.0 // indirect
+	github.com/gobwas/pool v0.2.1 // indirect
+	github.com/gobwas/ws v1.1.0 // indirect
+	github.com/josharian/intern v1.0.0 // indirect
+	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/mattn/go-isatty v0.0.12 // indirect
+	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 )
